@@ -1,50 +1,64 @@
-# Welcome to your Expo app 👋
+# Task Manager App 📝
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple **React Native Task Manager** with animations, persistent storage, and a professional UI.  
+This app allows users to **add, delete, edit, and mark tasks as completed**. It works on both **Android and iOS** and stores tasks locally using **AsyncStorage**.
 
-## Get started
+---
 
-1. Install dependencies
+## **Features**
 
-   ```bash
-   npm install
-   ```
+- ✅ Add new tasks
+- ✅ Delete tasks with smooth animation
+- ✅ Mark tasks as completed (strike-through)
+- ✅ Edit tasks on long press (modal input)
+- ✅ Persistent storage using AsyncStorage
+- ✅ Professional UI with shadows, rounded buttons, and card-style tasks
+- ✅ Smooth LayoutAnimation for all changes
+- ✅ Cross-platform (Android + iOS)
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## **Screenshots**
 
-In the output, you'll find options to open the app in a
+### Task List
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+![Task List Screenshot](screenshots/task-list.png)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Add Task
 
-## Get a fresh project
+![Add Task Screenshot](screenshots/add-task.png)
 
-When you're ready, run:
+### Edit Task (Modal)
+
+![Edit Task Screenshot](screenshots/edit-task.png)
+
+### Completed Task
+
+![Completed Task Screenshot](screenshots/completed-task.png)
+
+*(Replace above screenshots with your actual images)*
+
+---
+
+## **Tech Stack**
+
+- **React Native**  
+- **Expo CLI** for development  
+- **TypeScript** (optional, can be plain JS)  
+- **AsyncStorage** for local storage  
+- **LayoutAnimation** for smooth add/delete animations  
+
+---
+
+## **Getting Started**
+
+### **Requirements**
+
+- Node.js ≥ 18  
+- npm ≥ 10  
+- Expo Go app on your Android/iOS device or emulator  
+
+### **Install Dependencies**
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npm install

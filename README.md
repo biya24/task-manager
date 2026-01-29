@@ -5,6 +5,10 @@ This app allows users to **add, delete, edit, and mark tasks as completed**. It 
 
 ---
 
+![React Native](https://img.shields.io/badge/React%20Native-0.72.3-blue)
+![Expo](https://img.shields.io/badge/Expo-49.0.0-green)
+
+
 ## **Features**
 
 - ✅ Add new tasks
@@ -22,19 +26,19 @@ This app allows users to **add, delete, edit, and mark tasks as completed**. It 
 
 ### Task List
 
-![Task List Screenshot](screenshots/task-list.png)
+![Task List Screenshot](assets/screenshots/task-list.png)
 
 ### Add Task
 
-![Add Task Screenshot](screenshots/add-task.png)
+![Add Task Screenshot](assets/screenshots/add-task.png)
 
 ### Edit Task (Modal)
 
-![Edit Task Screenshot](screenshots/edit-task.png)
+![Edit Task Screenshot](assets/screenshots/edit-task.png)
 
 ### Completed Task
 
-![Completed Task Screenshot](screenshots/completed-task.png)
+![Completed Task Screenshot](assets/screenshots/completed-task.png)
 
 *(Replace above screenshots with your actual images)*
 
